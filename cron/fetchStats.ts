@@ -1,6 +1,4 @@
 import { getPlayerDataThrottled } from './slippi'
-import { GoogleSpreadsheet } from 'google-spreadsheet';
-import creds from '../secrets/creds.json';
 import * as syncFs from 'fs';
 import * as path from 'path';
 import util from 'util';
