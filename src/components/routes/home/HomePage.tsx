@@ -57,7 +57,7 @@ export default function HomePage() {
         {settings.title}
       </h1>
       <div className="p-1 text-gray-300">Updated {updateDesc}</div>
-      <div className="p-1 text-gray-300">If you're a UK player, add yourself <a className="text-gray-400 hover:text-gray-500 hover:underline" href="https://forms.gle/eikALgtpMeWVpBAt5">here!</a></div>
+      <div className="p-1 text-gray-300">If you're a UK player, add yourself <a className="text-gray-400 hover:text-gray-500 hover:underline" href="https://forms.gle/eikALgtpMeWVpBAt5">[HERE!]</a></div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
         <div>Built by blorppppp</div>
