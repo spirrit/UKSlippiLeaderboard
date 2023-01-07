@@ -55,7 +55,7 @@ export function Row({ player }: Props) {
   const ratingChange = getRatingChange(player);
 
   return (
-    <tr className={`${playerRank.bgClass} border-separate border-spacing-2 border-b-2 border-gray-600`} >
+    <tr className={`${playerRank.bgClass} border-separate border-spacing-2 border-b-2 border-black`} >
       <td className="md:text-2xl text-gray-300 md:px-6 md:py-4 md:p-1 whitespace-nowrap">
         <div>{isActive && `#${player.rankedNetplayProfile.rank}`}</div>
         {Boolean(rankChange) && changeArrow(rankChange)} </td>
