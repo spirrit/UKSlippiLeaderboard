@@ -95,7 +95,7 @@ module.exports = {
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
             <link href="https://fonts.googleapis.com/css2?family=Quicksand&amp;display=swap" rel="stylesheet">
           </head>
-          <body class="bg-gray-600">
+          <body>
             <noscript>
               Enable JavaScript to use Frontend toolbox
             </noscript>
