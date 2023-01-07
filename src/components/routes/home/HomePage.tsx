@@ -56,14 +56,15 @@ export default function HomePage() {
       <h1 className="text-3xl m-4 text-center text-white">
         {settings.title}
       </h1>
-      <div className="p-1 text-gray-300"> Updated {updateDesc}</div>
+      <div className="p-1 text-gray-300">Updated {updateDesc}</div>
+      <div className="p-1 text-gray-300">If you're a UK player, add yourself <a href="https://forms.gle/eikALgtpMeWVpBAt5">here!</a></div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
         <div>Built by blorppppp</div>
         <div>
           <a href="https://www.buymeacoffee.com/blorppppp" target="_blank" rel="noreferrer"
              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
-            Buy me a coffee
+            Buy them a coffee!
           </a>☕
         </div>
       </div>
