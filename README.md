@@ -1,6 +1,6 @@
 # UK Ranked Slippi Leaderboard
 
-Code powering https://melee.uk/slippi
+Code powering https://melee.uk/slippi/
 
 ## Technologies
 
