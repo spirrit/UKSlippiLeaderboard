@@ -61,14 +61,14 @@ export function Row({ player }: Props) {
         {Boolean(rankChange) && changeArrow(rankChange)} </td>
       <td className="text-gray-100 md:px-6 md:py-3 p-1 whitespace-nowrap text-center overflow-hidden md:max-w-full max-w-[7rem] text-elipses">
         <a className="md:text-xl text-sm max-w-xs text-gray-300 hover:text-gray-500 hover:underline" href={codeToUrlSlug(player.connectCode.code)}>{player.displayName}</a>
-        <div className="text-red-300 text-xs">{player.connectCode.code}</div>
+        <div className="text-gray-400 text-xs">{player.connectCode.code}</div>
       </td>
       <td className="md:text-xl text-sm text-gray-900 md:px-6 md:py-3 p-1 whitespace-nowrap text-center">
 
         {playerRank.iconUrl && <div className="flex items-center justify-center">
           <img className="md:h-10 md:w-10 h-6 w-6 drop-shadow" src={playerRank.iconUrl} />
         </div>}
-        <div className="md:text-sm text-xs max-w-xs text-gray-400 uppercase">
+        <div className="md:text-sm text-xs max-w-xs text-gray-300 uppercase">
           {playerRank.name}
         </div>
         <div className="text-gray-300 md:text-sm text-xs">
