@@ -14,7 +14,7 @@ export function Table({ players }: Props) {
   }
   return (
     <>
-    <table className="table-fixed text-center">
+    <table className="table-fixed text-center font-medium">
       <thead className="bg-gray-800">
         <tr>
           {th('Rank')}

@@ -53,13 +53,14 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col items-center h-screen p-8">
-      <h1 className="text-3xl m-4 text-center text-white">
+      <h1 className="text-4xl m-4 text-center text-white font-bold">
         {settings.title}
       </h1>
       <div className="p-1 text-gray-300">Updated {updateDesc}</div>
       <div className="p-1 text-gray-300">If you're a UK player, add yourself <a className="text-gray-400 hover:text-gray-500 hover:underline" href="https://forms.gle/eikALgtpMeWVpBAt5">[HERE!]</a></div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
+        <div>Maintained by <a href="https://twitter.com/Moonlight_ers" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">Moon</a></div>
         <div>Built by blorppppp</div>
         <div>
           <a href="https://www.buymeacoffee.com/blorppppp" target="_blank" rel="noreferrer"
