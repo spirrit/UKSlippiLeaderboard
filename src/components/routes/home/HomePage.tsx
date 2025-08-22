@@ -7,6 +7,7 @@ import timestamp from '../../../../cron/data/timestamp.json';
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime' // import plugin
 import * as settings from '../../../../settings'
+import ColoradoFlag from '../../../../images/Flag_of_Colorado.svg';
 dayjs.extend(relativeTime)
 
 
@@ -27,6 +28,8 @@ const sortAndPopulatePlayers = (players: Player[]) => {
 }
 
 export default function HomePage() {
+  console.log(playersNew);
+  console.log(playersOld);
 
   const rankedPlayersOld = sortAndPopulatePlayers(playersOld)
   const oldPlayersMap = new Map(
