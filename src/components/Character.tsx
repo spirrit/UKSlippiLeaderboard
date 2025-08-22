@@ -87,13 +87,13 @@ export function Character({ id, totalGames, stats }: Props) {
   return (<>
   <div className="p-0.5" id={charId} data-tooltip-html={tooltip}>
     <CircularProgressbarWithChildren 
-      className="md:h-12 md:w-12 h-4 w-4"
+      className="md:h-10 md:w-10 h-4 w-4"
       value={percentage}
       styles={buildStyles({
         strokeLinecap: 'butt',
 	  		pathColor: 'rgb(22 163 74)'
       })}>
-      <img className="md:h-8 md:w-8 h-3 w-3" src={icon} />
+      <img className="md:h-6 md:w-6 h-3 w-3" src={icon} />
     </CircularProgressbarWithChildren>
   </div>
   <Tooltip anchorId={charId} />

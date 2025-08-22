@@ -77,7 +77,7 @@ class StandardRank implements Rank {
 
 class GrandMaster extends StandardRank {
   constructor() {
-    super('Grandmaster', 2191.75, Infinity, "bg-slate-900", GrandMasterIcon)
+    super('Grandmaster', 2191.75, Infinity, "bg-gradient-to-r from-[#7f1d24]", GrandMasterIcon)
   }
 
   isRank(player: Player) {
@@ -90,12 +90,12 @@ class GrandMaster extends StandardRank {
   }
 }
 
-const ORANGE_BG = 'bg-orange-900';
-const SLATE_BG = 'bg-slate-800';
-const YELLOW_BG = 'bg-yellow-900';
-const SKY_BG = 'bg-sky-900';
-const BLUE_BG = 'bg-blue-900';
-const INDIGO_BG = 'bg-indigo-900';
+const ORANGE_BG = 'bg-gradient-to-r from-[#6e441a]';
+const SLATE_BG = 'bg-gradient-to-r from-gray-600';
+const YELLOW_BG = 'bg-gradient-to-r from-[#614c01]';
+const SKY_BG = 'bg-gradient-to-r from-teal-900';
+const BLUE_BG = 'bg-gradient-to-r from-[#232d94]';
+const INDIGO_BG = 'bg-gradient-to-r from-indigo-900';
 
 export const RANKS = [
   new NoneRank(),
