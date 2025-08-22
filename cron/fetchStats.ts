@@ -10,7 +10,6 @@ import { exec } from 'child_process';
 const fs = syncFs.promises;
 const execPromise = util.promisify(exec);
 
-
 const getPlayerConnectCodes = async (): Promise<string[]> => {
   const doc = new GoogleSpreadsheet(settings.spreadsheetID);
   await doc.useServiceAccountAuth(creds);
